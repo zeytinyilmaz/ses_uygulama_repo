@@ -3,10 +3,17 @@ import piano_lists as pl
 from pygame import mixer
 
 class pygameManegement:
-    def __init__(self, pygame=None, mixer=None, notasClass = None):
+    def __init__(self, pygame=None, mixer=None, notasClass = None, soundClass=None):
         self.__pygame = pygame
         self.__mixer = mixer
         self.__notasClass = notasClass
+        self.__soundClass = soundClass
+
+    def setSoundClass(self, soundClass):
+        self.__soundClass = soundClass
+
+    def getSoundClass(self):
+        return self.__soundClass
 
     def setPygameObject(self, pygame):
         self.__pygame = pygame
