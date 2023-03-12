@@ -37,3 +37,7 @@ from pydub.playback import play
 new_wav_file = AudioSegment.from_file(file="/home/pentest/Masaüstü/assets/notes/Gb7.wav", format='wav')
 yeni =  new_wav_file
 yeni.export('/home/pentest/Masaüstü/sesdeneme.wav', format='wav', tags={'artist': 'project', 'album': 'project', 'comments': 'project'})
+
+
+print('dkljfkdjhfkj')
+
