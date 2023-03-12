@@ -40,3 +40,4 @@ yeni.export('/home/pentest/Masaüstü/sesdeneme.wav', format='wav', tags={'artis
 
 
 print('dkljfkdjhfkj')
+
