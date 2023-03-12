@@ -25,3 +25,4 @@ print(sound.frame_rate)
 
 ses1 = Sine(sound.frame_rate).to_audio_segment(duration=saniye1)
 ses1.export('/home/pentest/Masaüstü/sesdeneme.wav', format='wav', tags={'artist': 'project', 'album': 'project', 'comments': 'project'})
+print('bitti')
